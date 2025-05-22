@@ -120,7 +120,11 @@
 ## 🔢 Visitor Counter
 
 <p align="center">
-  <a href="https://visitcount.itsvg.in">
+  <!-- Old one (currently non-functional) -->
+  <!-- <a href="https://visitcount.itsvg.in/api?id=ToughLad&icon=1&color=0">
     <img src="https://visitcount.itsvg.in/api?id=ToughLad&icon=1&color=0" />
-  </a>
+  </a> -->
+
+  <!-- Working alternative -->
+  <img src="https://profile-counter.glitch.me/ToughLad/count.svg" alt="Visitor Count" />
 </p>
