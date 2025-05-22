@@ -89,7 +89,7 @@
 
 ---
 
-# 📊 GitHub Stats
+# 📊 Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ToughLad&theme=transparent&hide_border=false&include_all_commits=true&count_private=true" />
@@ -101,7 +101,7 @@
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=ToughLad&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
@@ -109,7 +109,7 @@
 
 ---
 
-## ✨ Quote of the Day
+## Quote of the Day
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko" />
@@ -117,7 +117,7 @@
 
 ---
 
-## 🔢 Visitor Counter
+## 🔢 Visitors
 
 <p align="center">
   <!-- Old one (currently non-functional) -->
