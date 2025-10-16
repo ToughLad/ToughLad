@@ -42,7 +42,7 @@ _Go, TypeScript, PostgreSQL, Redis, MQTT, CI/CD_
 • Delivered control & monitoring apps; added streaming ingestion with backpressure; eliminated queue stalls; reproducible releases.
 
 **Full-Stack / Platform Architecture — [NoMoreCopyright](https://nomorecopyright.com)**  
-_Node/Rust/Go, Redis, MongoDB, AWS, Cloudflare, tracing/flags_  
+_Node, Redis, MongoDB, tracing/flags_  
 • Scaled services to millions+ requests; introduced cache layers, query pruning, and TTL strategy to reduce DB ops; added tracing, rate limits, and error budgets.
 
 **Freelance Systems Programmer — [Upwork](https://www.upwork.com) (2019–present)**  
