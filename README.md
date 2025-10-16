@@ -1,130 +1,75 @@
-# Hey, I'm ToughLad 👋
+# ToughLad — systems & performance
+
+> I ship low-latency services, make code cheaper, and **own the tail**.
 
 <div align="center">
-  
-### Systems Programmer | Performance Engineer | Open Source Contributor
 
-[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
-[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org/)
-[![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-
-**Specializing in high-performance systems, low-level programming, and building blazingly fast software**
+[![Rust](https://img.shields.io/badge/Rust-000?logo=rust)](https://www.rust-lang.org/)
+[![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=fff)](https://go.dev)
+[![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=fff)](https://isocpp.org/)
+[![Linux](https://img.shields.io/badge/Linux-000?logo=linux&logoColor=fff)](https://kernel.org/)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=fff)](https://aws.amazon.com/)
 
 </div>
 
 ---
 
-## Professional Experience
+## Receipts (short)
+- **Rust-AI** — CPU inference engine with arena allocators & SIMD. ~**3× faster** than Python baselines on targeted workloads.
+- **void-go** — minimal web stack; low-alloc pipelines. ~**100k+ req/s** synthetic, stable P99s.
+- **fasthttp / http2** — protocol work (stream scheduling, perf tuning) used in prod.
 
-**Software Engineer** | [Saudi Aramco](https://www.aramco.com) | *Industrial Systems*  
-Developed mission-critical industrial control systems and automation software for one of the world's largest energy companies. Worked on embedded systems and real-time processing.
-
-**Full-Stack Developer** Then ** backend software engineer ** | [IVC Valves](https://ivc-valves.com) | *Industrial Solutions*  
-Built enterprise web applications and control systems for industrial valve manufacturing and management.
-
-**Full Stack Developer** | [NoMoreCopyright.com](https://nomorecopyright.com) | *Platform Architecture*  
-Architected and developed scalable backend infrastructure for copyright management platform handling millions of requests.
-
-**Freelance Systems Programmer** | [Upwork](https://www.upwork.com) | *2019 - Present*  
-Top-rated freelancer specializing in systems programming, performance optimization, and backend architecture. Successfully delivered 20+ projects with 5-star ratings.
+> Deterministic latency > peak throughput. I optimize for **P99/P999**, not the demo slide.
 
 ---
 
-## Featured Projects
-
-### [Rust-AI](https://github.com/ToughLad/Rust-AI)
-High-performance AI inference engine built entirely in Rust. Focused on memory safety and blazing-fast execution for machine learning workloads.
-- **Tech:** Rust, LLVM, Neural Networks
-- **Performance:** 3x faster than Python alternatives
-- **Use Case:** Production-ready AI inference
-
-### [void-go](https://github.com/ToughLad/void-go)
-Ultra-fast, lightweight web framework for Go with zero allocations and minimal overhead. Designed for maximum throughput and minimal latency.
-- **Tech:** Go, Assembly optimization, HTTP/2
-- **Performance:** Handles 100K+ req/sec
-- **Use Case:** High-performance microservices
-
-### [HTTP/2 for fasthttp](https://github.com/dgrr/http2)
-Core contributor to high-performance HTTP/2 implementation for Go's fasthttp library. Focus on protocol compliance and performance optimization.
-- **Tech:** Go, HTTP/2, Network protocols
-- **Impact:** Used in production by companies worldwide
-- **Contribution:** Protocol implementation, performance tuning
+## Toolbox
+`Rust` · `Go` · `C/C++` · `epoll/kqueue` · `io_uring` (selectively) · `SIMD` · `ring buffers` · `lock-free queues`  
+`HTTP/1.1/2` · `gRPC` · `WebSockets` · `H2 flow-control` · `HPACK/QPACK`  
+`PostgreSQL` · `Redis` · `MongoDB (used judiciously)`  
+`perf/pprof` · `flamegraphs` · `bcc/eBPF` · `tracing` · `GitHub Actions` · `Docker/K8s`
 
 ---
 
-## 🛠 Tech Stack
-
-### **Systems & Performance**
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat&logo=rust) 
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus) 
-![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) 
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white) 
-![Assembly](https://img.shields.io/badge/-Assembly-654FF0?style=flat&logo=assemblyscript&logoColor=white)
-
-### **Modern Development**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=typescript)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-
-### **Infrastructure & Tools**
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws)
-
-### **Databases & Storage**
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+## Approach
+1. **Measure first** (profile, trace, budget).
+2. **Fix the heaviest edge** (allocs → copies → locks → syscalls).
+3. **Prove it** (A/B, SLO deltas, cost per 10k req).
+4. **Make it boring** (observability, blast-radius, rollback).
 
 ---
 
-## 🌟 Open Source Contributions
+## Selected Work
+- [Rust-AI](https://github.com/ToughLad/Rust-AI) — memory-safe inference, cache-aware datastructures.
+- [void-go](https://github.com/ToughLad/void-go) — zero-allocation hot path, sane defaults.
+- [fasthttp/http2](https://github.com/dgrr/http2) — correctness & throughput under load.
 
-- **Zed Editor** - Core contributor to performance-critical features
-- **fasthttp/http2** - Major contributions to HTTP/2 protocol implementation
-- **Rust Ecosystem** - Multiple crates and community tools
-- **Go Community** - Performance optimizations and networking libraries
+<details>
+  <summary><b>Benchmark notes</b></summary>
 
-*Check my contribution graph below to see my consistent open-source activity*
-
----
-
-## What I'm Working On
-
-```rust
-fn current_focus() -> Vec<&'static str> {
-    vec![
-        "Building high-performance systems in Rust",
-        "Contributing to Zed's collaborative editing features",
-        "Optimizing network protocols and systems code",
-        "Exploring WebAssembly and edge computing",
-        "Mentoring developers in systems programming"
-    ]
-}
-```
+- Throughput figures are synthetic (wrk/vegeta) on commodity hardware; I prioritize tail-latency & jitter.  
+- Real benefits came from: pooling, scatter/gather I/O, fewer copies, bounded queues, and backpressure.
+</details>
 
 ---
 
-## 📫 Let's Connect
-
-- **Email:** [hello@toughlad.dev]
-- **Website:** [toughlad.dev](https://toughlad.dev)
-
-**Available for:** Full-time roles, consulting, and interesting open-source projects
+## Now
+- Tightening **tail latency** on Rust services (tracing-first).
+- Protocol work (HTTP/2 scheduling, flow-control fairness).
+- Teaching teams to go from “it’s fast here” → “it’s fast **in prod**”.
 
 ---
 
-<div align="center">
+## Background (one line)
+Saudi Aramco (industrial/RT), IVC Valves (control systems), NoMoreCopyright (high-volume platform), Upwork (top-rated systems work).
 
-### "Premature optimization is the root of all evil" — Donald Knuth
-*But knowing when to optimize is the root of all performance*
+---
 
-⭐️ From [ToughLad](https://github.com/ToughLad) | Building the future, one byte at a time
+## Contact
+**hello@toughlad.dev** · **https://toughlad.dev**  
+Available for **performance audits**, **backend architecture**, and **protocol implementations**.
 
-</div>
+---
+
+> “Make it work. Make it right. **Make it fast.**”  
+<sub>Knowing when to optimize is the actual skill.</sub>
